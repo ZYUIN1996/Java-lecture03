@@ -10,7 +10,7 @@ public class Main {
         hamsterMap.put("ロボロフスキーハムスター", new ArrayList<String>());
 
         hamsterMap.get("ゴールデンハムスター").add("ハム太郎");
-        hamsterMap.get("ロボロフスキーハムスター").add("ロボくん");
+        hamsterMap.get("ロボロフスキーハムスター").add("はむお");
 
         try {
             for (Map.Entry<String, List<String>> entry : hamsterMap.entrySet()) {
