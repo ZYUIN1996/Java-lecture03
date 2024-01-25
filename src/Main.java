@@ -6,10 +6,10 @@ import java.util.Map;
 public class Main {
     public static void main(String[] args) {
         Map<String, List<String>> hamsterMap = new HashMap<>();
-        hamsterMap.put("ゴールデンハムスター", new ArrayList<String>());
-        hamsterMap.put("ロボロフスキーハムスター", new ArrayList<String>());
+        hamsterMap.put("ゴールデンハムスター", new ArrayList<>());
+        hamsterMap.put("ロボロフスキーハムスター", new ArrayList<>());
 
-        hamsterMap.get("ゴールデンハムスター").add("ハム太郎");
+        hamsterMap.get("ゴールデンハムスター").add("ハム太");
         hamsterMap.get("ロボロフスキーハムスター").add("はむお");
 
         try {
